@@ -265,3 +265,11 @@ indian-ecommerce-sales-analysis/
 ├── .gitignore
 ├── readme.md
 └── requirements.txt
+
+## Author
+
+**Shruti Nagave**
+
+Aspiring Data Analyst | Python | SQL | Power BI
+
+- GitHub: [shrutinagave30](https://github.com/shrutinagave30)
