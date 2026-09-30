@@ -266,6 +266,20 @@ indian-ecommerce-sales-analysis/
 ├── readme.md
 └── requirements.txt
 
+---
+
+## Project Highlights
+
+- End-to-end data analytics workflow using Python, SQL and Power BI
+- Data cleaning and feature engineering using Pandas
+- Customer and profitability analysis
+- SQL-based business analysis and views
+- Automated Python visualizations
+- Interactive Power BI dashboard
+- Analysis of loss-making records and categories
+
+---
+
 ## Author
 
 **Shruti Nagave**
