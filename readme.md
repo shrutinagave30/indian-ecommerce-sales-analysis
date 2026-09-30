@@ -46,6 +46,8 @@ The analysis focuses on:
 
 ## Dataset
 
+The project uses Indian e-commerce sales data containing order, customer, product, sales, quantity, and profit information.
+
 ### Raw Files
 
 - `List of Orders.csv`
@@ -54,7 +56,7 @@ The analysis focuses on:
 
 ### Processed Data
 
-The raw datasets were cleaned, transformed and combined into:
+The raw datasets were cleaned, transformed, and combined into:
 
 `data/merged_orders_cleaned.csv`
 
@@ -94,7 +96,7 @@ The analysis includes:
 
 ## Business Analysis
 
-The project analyzes:
+The project analyzes different aspects of e-commerce performance.
 
 ### Sales Analysis
 
@@ -102,6 +104,7 @@ The project analyzes:
 - Monthly sales trends
 - Category-wise sales
 - State-wise sales
+- Sales target comparison
 
 ### Profitability Analysis
 
@@ -112,17 +115,15 @@ The project analyzes:
 - State profitability
 - Profit margin
 - Loss-making records
+- Loss-making categories
 
 ### Customer Analysis
 
 - Top customers by revenue
 - Customer order count
+- Customer sales
 - Customer profit
 - Customer profit margin
-
-### Target Analysis
-
-- Monthly sales compared with sales targets
 
 ---
 
@@ -162,6 +163,7 @@ Important outputs include:
 - `monthly_profit_trend.csv`
 - `monthly_sales.csv`
 - `monthly_sales_vs_target.csv`
+- `monthly_trends.csv`
 - `state_profitability.csv`
 - `state_sales.csv`
 - `top_customers.csv`
@@ -183,12 +185,17 @@ The project includes an interactive Power BI dashboard.
 - Monthly Sales Trend
 - Category-wise Sales
 - State-wise Sales
+- Profitability Analysis
 - Year filter
 - Category filter
 
-Power BI dashboard:
+### Power BI Dashboard File
 
 `PowerBi/Ecommerce_Sales_Analytics_Dashboard.pbix`
+
+A PDF version of the dashboard is also available:
+
+`PowerBi/Ecommerce_Dashboard_PowerBi.pdf`
 
 ---
 
@@ -210,6 +217,14 @@ The project includes:
 
 ---
 
+## Automated Reporting
+
+The project includes automated PDF reporting using **ReportLab**.
+
+Generated reports are available in the `outputs/` folder.
+
+---
+
 ## Key Insights
 
 Based on the analysis:
@@ -222,6 +237,24 @@ Based on the analysis:
 - High-revenue customers do not always generate high profit.
 - Loss-making records are present across all major categories.
 - Sales performance and profitability do not always move together.
+
+---
+
+## Business Questions
+
+This project was designed to answer practical business questions such as:
+
+1. What is the overall sales and profit performance?
+2. How do sales change across months?
+3. Which categories generate the highest sales?
+4. Which categories generate the highest profit?
+5. Which sub-categories are more or less profitable?
+6. Which states contribute significantly to sales?
+7. Which customers generate the highest revenue?
+8. Do high-revenue customers also generate high profit?
+9. Which records or categories contribute to losses?
+10. How do monthly sales compare with predefined targets?
+11. How does profitability vary across different business segments?
 
 ---
 
@@ -254,7 +287,7 @@ indian-ecommerce-sales-analysis/
 │   └── stored_procedures.sql
 │
 ├── outputs/
-│   ├── CSV analysis results
+│   ├── analysis CSV files
 │   ├── PDF reports
 │   └── plots/
 │
@@ -265,25 +298,3 @@ indian-ecommerce-sales-analysis/
 ├── .gitignore
 ├── readme.md
 └── requirements.txt
-
----
-
-## Project Highlights
-
-- End-to-end data analytics workflow using Python, SQL and Power BI
-- Data cleaning and feature engineering using Pandas
-- Customer and profitability analysis
-- SQL-based business analysis and views
-- Automated Python visualizations
-- Interactive Power BI dashboard
-- Analysis of loss-making records and categories
-
----
-
-## Author
-
-**Shruti Nagave**
-
-Aspiring Data Analyst | Python | SQL | Power BI
-
-- GitHub: [shrutinagave30](https://github.com/shrutinagave30)
